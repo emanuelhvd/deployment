@@ -1,1 +1,5 @@
 copyfiles
+
+.env.dev
+.env.staging
+.env.production

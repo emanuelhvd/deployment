@@ -303,7 +303,7 @@ services:
 
   proxy:
     image: tiledesk/tiledesk-docker-proxy:v1.1.2
-    container_name: tiledesk-docker-proxy   
+    container_name: tiledesk-docker-proxy
     ports:
       - "8081:80" # specify port forewarding
     depends_on:

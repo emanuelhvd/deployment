@@ -1,0 +1,82 @@
+{
+  "DASHBOARD": {
+    "META_TITLE": "Portal de Atendimentos - Posiflow",
+    "FAVICON_URL": "http://localhost:8083/brand/logos/favicon.ico",
+    "CUSTOM_COMPANY_HOME_LOGO": false,
+    "COMPANY_LOGO_PLANET": "assets/img/logos/tiledesk_planet.svg",
+    "privacy_policy_link_text": "Privacy Policy",
+    "privacy_policy_url": "",
+    "display_terms_and_conditions_link": false,
+    "terms_and_conditions_url": "",
+    "display_dpa_link": false,
+    "dpa_url": "",
+    "contact_us_email": "support@posiflow.com",
+    "display_contact_us_email": false,
+    "display-news-and-documentation": true,
+    "display_google_auth_btn": true,
+    "display_help_in_installation": true,
+    "display_invite_teammate_btn": true,
+    "display_chatbots_community": true,
+    "display_templates_category": true,
+    "display_change_pwd": true,
+    "EXTREME_MEASURES": true,
+    "SUPPORT_MENU": true,
+    "custom_redirect_after_logout": false,
+    "after_logout_redirect_URL": "",
+    "footer": {
+      "display_terms_and_conditions_link": false,
+      "display_star_us_on_github": false,
+      "display_leave_us_a_feedback": false,
+      "display_followus_on_x": false,
+      "followus_on_x_URL": "",
+      "display_followus_on_fb": false,
+      "followus_on_fb_URL": "",
+      "display_followus_on_in": false,
+      "followus_on_in_URL": "",
+      "display_followus_on_instagram": false,
+      "followus_on_instagram_URL": "",
+      "display_followus_on_youtube": false,
+      "followus_on_youtube_URL": ""
+    },
+    "recent_project_page": {
+      "company_logo_width": "130px",
+      "company_logo_height": "30px"
+    },
+    "signup_page": {
+      "display_terms_and_conditions_link": false,
+      "display_social_proof_container": false
+    },
+    "handle_invitation_page": {
+      "company_logo_45x45": "assets/img/logos/tiledesk-solo-logo.png"
+    }
+  },
+  "WIDGET": {
+    "LOGO_CHAT": "https://tiledesk.com/tiledesk-logo-white.png",
+    "POWERED_BY": ""
+  },
+  "CHAT": {},
+  "CDS": {
+    "META_TITLE": "Design Studio",
+    "FAVICON_URL": "http://localhost:8083/brand/logos/favicon.ico",
+    "INFO_MENU_ITEMS": [
+      { "key": "FEEDBACK", "icon": "", "src": "", "status": "inactive" },
+      { "key": "CHANGELOG", "icon": "", "src": "", "status": "inactive" }
+    ]
+  },
+  "COMMON": {
+    "COMPANY_LOGO": "http://localhost:8083/brand/logos/logo.svg",
+    "COMPANY_LOGO_NO_TEXT": "http://localhost:8083/brand/logos/logo-no-text.svg",
+    "BASE_LOGO": "http://localhost:8083/brand/logos/logo.svg",
+    "BASE_LOGO_NO_TEXT": "http://localhost:8083/brand/logos/logo-no-text.svg",
+    "COMPANY_NAME": "PosiFlow",
+    "BRAND_NAME": "PosiFlow",
+    "COMPANY_SITE_NAME": "posiflow.com",
+    "COMPANY_SITE_URL": "https://www.posiflow.com",
+    "CONTACT_US_EMAIL": "support@posiflow.com",
+    "CONTACT_SALES_EMAIL": "sales@posiflow.com",
+    "BRAND_PRIMARY_COLOR": "#0BA442",
+    "BRAND_SECONDARY_COLOR": "#0BA442",
+    "DOCS": true,
+    "LOGOUT_ENABLED": true
+  }
+}

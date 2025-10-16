@@ -3,3 +3,4 @@ copyfiles
 .env.dev
 .env.staging
 .env.production
+docker-compose/NUL

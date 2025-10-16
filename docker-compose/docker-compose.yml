@@ -102,13 +102,14 @@ services:
    image: chat21/chat21-ionic:3.4.22
    container_name: chat21-ionic
    ports:
-      - "8082:80" #use expose if you want to block external access   
-   environment: 
-      - DASHBOARD_URL=/dashboard/      
+      - "8082:80" #use expose if you want to block external access
+   environment:
+      - DASHBOARD_URL=/dashboard/
       - API_BASEIMAGE_URL=/api/
       - SERVER_BASE_URL=/api/
       - FEATURES_TOKEN=PAY:F-ANA:T-ACT:T-TRI:T-GRO:T-DEP:T-OPH:T-MTL:T-CAR:T-PSA:F-MTT:T-SUP:T-LBS:T-APP:T-DEV:F-NOT:T-IPS:F-ETK:F-RAS:F-PPB:F-PET:F-MTS:F-TIL:T-DGF:T-NAT:T-HPB:F-TOW:F-KNB:T-GPT:T-BAN:F-AST:F-MON:T-CNT:F-AUT:F-WUN:F-INT:T-DPA:T
       - WIDGET_LOCATION=/widget/
+      - BRAND_SRC
       - PUSH_ENGINE=none
       - LOG_LEVEL=info
       - FILE_UPLOAD_ACCEPT=*/*

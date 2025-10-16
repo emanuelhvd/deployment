@@ -61,7 +61,19 @@
     "INFO_MENU_ITEMS": [
       { "key": "FEEDBACK", "icon": "", "src": "", "status": "inactive" },
       { "key": "CHANGELOG", "icon": "", "src": "", "status": "inactive" }
-    ]
+    ],
+    "LOGO_MENU_ITEMS": [],
+    "SUPPORT_OPTIONS": {
+      "SELF_SERVICE": [],
+      "CONTACT_US": []
+    },
+    "SHARE_MENU_ITEMS": [],
+    "MEDIA": {
+      "RULES": { "src": "", "text": "", "description": "" },
+      "GLOBALS": { "src": "", "text": "", "description": "" }
+    },
+    "META_SHARE_INFO": {},
+    "BRAND_PRIMARY_COLOR": "#0BA442"
   },
   "COMMON": {
     "COMPANY_LOGO": "http://localhost:8083/brand/logos/logo.svg",
